@@ -1,0 +1,23 @@
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:markdown/recommended", "prettier"],
+	"plugins": ["@typescript-eslint"],
+	"parserOptions": {
+		"ecmaVersion": 2020,
+		"sourceType": "module",
+		"project": "tsconfig.json"
+	},
+	"globals": {
+		"NodeJS": true
+	},
+	"env": {
+		"browser": true,
+		"es2019": true,
+		"node": true
+	},
+	"rules": {
+		"@typescript-eslint/no-explicit-any": "off",
+		"no-useless-escape": "off"
+	}
+}

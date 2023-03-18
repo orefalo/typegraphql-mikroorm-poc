@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "ESNext",
+		"lib": ["ESNext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"outDir": "dist",
+		"moduleResolution": "node",
+		"removeComments": true,
+		"strict": false,
+		"strictPropertyInitialization": false,
+		"noEmit": false,
+		"resolveJsonModule": true,
+		"isolatedModules": false,
+		"incremental": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"esModuleInterop": true
+	},
+
+	"include": ["**/*.ts", "tests/author.test.ts", "tests/initAll.test.ts", "tests/book.test.ts"],
+	"exclude": ["node_modules", "tsconfig.json"],
+
+	"ts-node": {
+		"require": ["tsconfig-paths/register"]
+	}
+}
