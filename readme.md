@@ -2,6 +2,8 @@
 
 _One model to rule them all_
 
+Link to the [Article](https://medium.com/@orefalo_66733/microservice-proof-of-concept-7eb951cf7ee6)
+
 ![](screenshot.png)
 
 ## 🏷️ Features
